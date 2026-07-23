@@ -1,8 +1,28 @@
 aid: acesion-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acesion-pharma.png
 name: Acesion Pharma
-description: Acesion Pharma is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Acesion Pharma is a clinical-stage pharmaceutical company based in Frederiksberg,
+  Denmark, developing novel therapies for atrial fibrillation (AF), the most common
+  cardiac arrhythmia. The company pioneers small-molecule SK ion channel inhibition
+  as a differentiated mechanism to treat AF safely and effectively. Its lead program
+  AP31969 entered Phase 2 clinical trials in January 2026, building on earlier work
+  on the cardioversion candidate AP30663. Acesion Pharma is backed by venture
+  investors including Canaan Partners. As a pharmaceutical R&D company it does not
+  currently publish a public developer API, SDK, or API documentation; this profile
+  captures its corporate identity and public web properties in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/acesion-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,37 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api: true
+x-no-api-reason: clinical-stage pharmaceutical company; no public developer API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Healthcare
+- Life Sciences
+- Cardiology
+- Atrial Fibrillation
+- Drug Development
 apis: []
+common:
+- type: Website
+  url: https://acesionpharma.com/
+- type: Blog
+  url: https://acesionpharma.com/news/
+- type: PrivacyPolicy
+  url: https://acesionpharma.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/acesion-pharma/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
