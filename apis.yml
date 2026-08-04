@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acesion-pharma.png
 name: Acesion Pharma
-description: >-
-  Acesion Pharma is a clinical-stage pharmaceutical company based in Frederiksberg,
-  Denmark, developing novel therapies for atrial fibrillation (AF), the most common
-  cardiac arrhythmia. The company pioneers small-molecule SK ion channel inhibition
-  as a differentiated mechanism to treat AF safely and effectively. Its lead program
-  AP31969 entered Phase 2 clinical trials in January 2026, building on earlier work
-  on the cardioversion candidate AP30663. Acesion Pharma is backed by venture
-  investors including Canaan Partners. As a pharmaceutical R&D company it does not
-  currently publish a public developer API, SDK, or API documentation; this profile
-  captures its corporate identity and public web properties in the API Evangelist
-  network.
+description: Acesion Pharma is a clinical-stage pharmaceutical company based in Frederiksberg, Denmark,
+  developing novel therapies for atrial fibrillation (AF), the most common cardiac arrhythmia. The company
+  pioneers small-molecule SK ion channel inhibition as a differentiated mechanism to treat AF safely and
+  effectively. Its lead program AP31969 entered Phase 2 clinical trials in January 2026, building on earlier
+  work on the cardioversion candidate AP30663. Acesion Pharma is backed by venture investors including
+  Canaan Partners. As a pharmaceutical R&D company it does not currently publish a public developer API,
+  SDK, or API documentation; this profile captures its corporate identity and public web properties in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/acesion-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -30,8 +27,6 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-no-api: true
-x-no-api-reason: clinical-stage pharmaceutical company; no public developer API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
@@ -64,3 +59,10 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: clinical-stage pharmaceutical company; no public developer API surface
+  evidence: []
+  checked: '2026-08-04'
+  migrated: true
